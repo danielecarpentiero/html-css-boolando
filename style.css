@@ -18,9 +18,14 @@ header {
 main {
   padding-top: 60px;
 }
+
 header .container {
-  width: 1350px;
   margin: 20px auto;
+}
+
+header .container,
+footer .container {
+  width: 1330px;
   display: flex;
   justify-content: space-between;
 }
@@ -28,6 +33,10 @@ header .container {
 .container img {
   width: 150px;
   height: 35px;
+}
+
+.socials ul {
+  max-width: 80px;
 }
 
 header ul {
@@ -41,7 +50,7 @@ ul {
   list-style-type: none;
 }
 
-li:nth-of-type(2) {
+main li:nth-of-type(2) {
   font-weight: bold;
 }
 
@@ -118,4 +127,22 @@ img.back {
 
 .green {
   background-color: green;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+footer .container {
+  margin: 0 auto;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  gap: 20px;
 }
