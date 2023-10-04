@@ -35,13 +35,26 @@ li:nth-of-type(2) {
   display: flex;
 }
 
+.top:hover img.back {
+  opacity: 1;
+}
+
 .box {
   width: calc(100% / 3 - 20px);
   padding: 10px 0;
 }
 
-img {
+img.front,
+img.back {
   max-width: 100%;
+}
+
+img.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .heart {
