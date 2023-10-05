@@ -91,7 +91,7 @@ main li:nth-of-type(2) {
 }
 
 .box {
-  width: calc(100% / 3 - 20px);
+  width: calc((100% - 40px) / 3);
   padding: 10px 0;
 }
 
