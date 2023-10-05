@@ -98,6 +98,7 @@ main li:nth-of-type(2) {
 img.front,
 img.back {
   max-width: 100%;
+  /*  display: block; */
 }
 
 img.back {
@@ -117,6 +118,11 @@ img.back {
   height: 50px;
   background-color: white;
   text-align: center;
+  z-index: 99;
+}
+
+.heart:hover {
+  color: red;
 }
 
 .icons {
